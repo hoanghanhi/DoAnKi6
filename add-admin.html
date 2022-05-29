@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <a href>
+            <img src="image/logo.png" width="170px" alt class="logo_detail">
+        </a>
+        <span class="logo_name">Cake</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" >
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="category.html">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Category</span>
+          </a>
+        </li>
+        <li>
+          <a href="food.html">
+            <i class="fa-solid fa-cake-candles"></i>
+            <span class="links_name">Food</span>
+          </a>
+        </li>
+        <li>
+          <a href="order.html">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Order list</span>
+          </a>
+        </li>
+       
+        
+        <li>
+          <a href="user.html">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">User</span>
+          </a>
+        </li>
+        <li>
+          <a href="admin.html">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Admin</span>
+          </a>
+        </li>
+        <li>
+          <a href="messages.html">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li>
+        
+        <li class="log_out">
+          <a href="login.html">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+<section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Admin</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+   
+      </div>
+    </nav> 
+     <div class="home-content">
+        <div class="wrapper">
+            <h1> Add Admin </h1>
+            <br> <br>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <table class="tbl-30">
+                    <tbody>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>
+                                <input type="text" name="full_name" placeholder="Enter Your Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Username: </td>
+                            <td>
+                                <input type="text" name="username" placeholder="Your Username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td>
+                                <input type="Password" name="password" placeholder="Your Password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1">
+                                <input type="submit" name="submit" value="Add Admin" class="btn-danger">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
